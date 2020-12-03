@@ -14,10 +14,10 @@ Twitter smooth extension is an extension which aims to change the theme of the [
 
 ## Installation
 
-* <a href="https://chrome.google.com/webstore/detail/instagram-dark-theme/hhpaefgagkcciebgfdmoljlebdmpfcfb">Instagram Dark Extension for Chrome 
+* <a href="https://chrome.google.com/webstore/detail/instagram-dark-theme/hhpaefgagkcciebgfdmoljlebdmpfcfb">Twitter Smooth Extension for Chrome 
 	<p><img src="https://img.shields.io/chrome-web-store/v/hhpaefgagkcciebgfdmoljlebdmpfcfb" alt="Chrome Web Store version"> <img src="https://img.shields.io/chrome-web-store/users/hhpaefgagkcciebgfdmoljlebdmpfcfb" alt="Chrome Web Store users"></p></a>
 
-* <a href="https://addons.mozilla.org/fr/firefox/addon/twitter-smooth">Instagram Dark Extension for Firefox
+* <a href="https://addons.mozilla.org/fr/firefox/addon/twitter-smooth">Twitter Smooth Extension for Firefox
 	<p><img src="https://img.shields.io/amo/v/twitter-smooth" alt="Mozilla Add-on version"> <img src="https://img.shields.io/amo/dw/twitter-smooth" alt="Mozilla Add-on downloads"> <img src="https://img.shields.io/amo/users/twitter-smooth" alt="Mozilla Add-on users"> <img src="https://img.shields.io/amo/stars/twitter-smooth" alt="Mozilla Add-on stars"></p></a>
 
 ## Usage
