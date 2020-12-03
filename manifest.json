@@ -1,0 +1,25 @@
+{
+    "name": "Twitter Smooth Theme",
+    "version": "1.0.0",
+    "description": "Smooth Theme for Twitter",
+    "icons": {
+        "128": "img/icon.png"
+    },
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "js": [
+                "js/script.js"
+            ],
+            "css": [
+                "css/contentstyle.css"
+            ],
+            "matches": [
+                "*://*.twitter.com/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "fonts/*"
+    ]
+}

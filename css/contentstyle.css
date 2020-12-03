@@ -1,0 +1,244 @@
+:root {
+    --st-white: #f3f8fe;
+}
+
+/* TODO: use javascript to change white color*/
+
+body, .r-1qd0xha {
+    font-family: 'Fira Sans', sans-serif !important;
+}
+
+/* most used css class for borders */
+
+.css-1dbjc4n {
+    border: none !important;
+}
+
+/* link hover */
+
+.r-1cuuowz {
+    background-color: rgba(0, 0, 0, .02) !important;
+}
+
+/* shadow on message wrapper */
+
+.r-xnswec {
+    box-shadow: rgba(136, 153, 166, 0.05) 0px 0px 15px, rgba(136, 153, 166, 0.05) 0px 0px 3px 1px;
+}
+
+/* header selector */
+
+/* header[role="banner"] {} */
+
+/* header width */
+
+header[role="banner"] .r-o96wvk {
+    width: 88px !important;
+}
+
+/* header > navbar selector */
+
+header[role="banner"] .css-1dbjc4n.r-aqfbo4.r-1pi2tsx.r-1xcajam.r-ipm5af {
+    padding-top: 50px;
+}
+
+/* header > navbar twitter logo 
+
+header[role="banner"] .css-1dbjc4n.r-aqfbo4.r-1pi2tsx.r-1xcajam.r-ipm5af .r-13gxpu9 {
+    color: rgb(27, 227, 253);
+    filter: drop-shadow(5px 5px 10px rgba(27, 227, 253, .25));
+}*/
+
+/* header > navbar text */
+
+header[role="banner"] .css-1dbjc4n.r-aqfbo4.r-1pi2tsx.r-1xcajam.r-ipm5af .css-901oao.css-bfa6kz.r-1qd0xha.r-1b6yd1w.r-vw2c0b.r-ad9z0x.r-1joea0r.r-y3t9qe.r-bcqeeo.r-qvutc0 {
+    display: none;
+}
+
+/* header > navbar icons align */
+
+header[role="banner"] nav[role="navigation"] {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+header .css-1dbjc4n.r-1habvwh {
+    align-items: center;
+}
+
+/* header > navbar icons deletion */
+
+header[role="banner"] a[href="/explore"] {
+    display: none;
+}
+
+header[role="banner"] a[href="/messages"] {
+    display: none;
+}
+
+/* TODO: header > tweet composer button selector */
+
+header[role="banner"] a[href="/compose/tweet"] {
+    display: none;
+}
+
+/* header > navbar elements title ex: "Home", "Notifications" */
+
+header[role="banner"] .css-901oao.css-bfa6kz.r-b88u0q.r-ad9z0x.r-bcqeeo.r-qvutc0 {
+    display: none;
+}
+
+/* header > navbar account name & username */
+
+header[role="banner"] div[role="button"] {
+    justify-content: center;
+}
+
+header[role="banner"] .css-1dbjc4n.r-1wbh5a2.r-dnmrzs.r-1ny4l3l {
+    display: none;
+}
+
+/* TODO: Navbar account dropdown arrow */
+
+header[role="banner"] div[role="button"] .css-1dbjc4n.r-obd0qt.r-16y2uox {
+    display: none;
+}
+
+/* main selector */
+
+main[role="main"] {
+    align-items: center !important;
+}
+
+/* main > primary column */
+
+main[role="main"] div[data-testid="primaryColumn"] {
+    padding-top: 45px;
+}
+
+/* main > primary column > page title ex: "Home", "Notifications" */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-aqfbo4.r-rull8r.r-qklmqi.r-gtdqiz.r-ipm5af.r-1g40b8q {
+    display: none;
+}
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1p0dtai.r-1mlwlqe.r-1d2f490.r-1udh08x.r-u8s1d.r-zchlnj.r-ipm5af.r-417010 {
+    border-radius: 20px;
+}
+
+/* main > primary column > tweet composer selector */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-atwnbb {
+    margin: 5px 0 25px;
+    border-radius: 40px !important;
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .02);
+}
+
+/* main > primary column > tweet composer tools bar 
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-atwnbb .css-1dbjc4n.r-1awozwy.r-18u37iz.r-1w6e6rj.r-1wtj0ep.r-id7aif.r-184en5c {
+    background-color: #fff !important;
+}*/
+
+/* main > primary column > tweet composer draft editor */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-atwnbb .DraftEditor-root {
+    font-size: 15px !important;
+}
+
+/* main > primary column > bar separator between tweet composer and tweets list */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-rull8r.r-qklmqi.r-1efd50x.r-5kkj8d {
+    display: none;
+}
+
+/* main > primary column > tweets list selector */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1jgb5lz.r-1ye8kvj.r-13qz1uu {}
+
+/* main > primary column > tweets list tweet images/embed border radius */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1jgb5lz.r-1ye8kvj.r-13qz1uu .r-1867qdf {
+    border-radius: 40px !important;
+}
+
+/* main > primary column > tweets list tweet images/embed border */
+
+main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1jgb5lz.r-1ye8kvj.r-13qz1uu .r-rs99b7 {
+    border-width: 0 !important;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, .02);
+}
+
+/* main > */
+
+main[role="main"] div[data-testid="primaryColumn"] div[data-testid="videoPlayer"] .css-1dbjc4n.r-l4nmg1.r-ou255f {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+}
+
+/* main > profile/playButton images border radius */
+
+main[role="main"] .r-sdzlij {
+    border-radius: 20px !important;
+}
+
+/* main > cards borders */
+
+main[role="main"] .r-qklmqi {
+    border-bottom-width: 0 !important;
+}
+
+main[role="main"] .r-1ljd8xs {
+    border-left-width: 0 !important;
+}
+
+main[role="main"] .r-13l2t4g {
+    border-right-width: 0 !important;
+}
+
+/* TODO: main > primary column > tweets list tweet hover */
+
+article.css-1dbjc4n.r-1loqt21.r-18u37iz.r-1ny4l3l.r-o7ynqc.r-6416eg:hover {
+    background-color: inherit;
+}
+
+/* main > secondary column selector */
+
+/* main[role="main"] div[data-testid="sidebarColumn"] {} */
+
+/* main > secondary column > sidebar selector */
+
+main[role="main"] div[data-testid="sidebarColumn"] {
+    padding-top: 50px;
+}
+
+/* main > secondary column > sidebar native padding-top */
+
+main[role="main"] div[data-testid="sidebarColumn"] .r-m611by {
+    padding-top: 0 !important;
+}
+
+/* main > secondary column > sidebar cards background */
+
+main[role="main"] div[data-testid="sidebarColumn"] .r-1ihkh82, main[role="main"] div[data-testid="sidebarColumn"] .r-z32n2g, main[role="main"] div[data-testid="sidebarColumn"] .r-1ysxnx4 {
+    background-color: rgba(0, 0, 0, .02) !important;
+}
+
+/* main > secondary column > sidebar search bar*/
+
+main[role="main"] div[data-testid="sidebarColumn"] .css-1dbjc4n.r-1awozwy.r-aqfbo4.r-18u37iz.r-1xcajam.r-ipm5af.r-1hycxz.r-136ojw6 {
+    position: relative;
+}
+
+/* main > secondary column > */
+
+main[role="main"] div[data-testid="sidebarColumn"] .r-aaos50, main[role="main"] div[data-testid="sidebarColumn"] .r-1uaug3w {
+    background-color: rgba(0, 0, 0, .01) !important;
+}
+
+/* main > secondary column > sidebar search bar background space */
+
+main[role="main"] div[data-testid="sidebarColumn"] .css-1dbjc4n.r-1awozwy.r-aqfbo4.r-18u37iz.r-1xcajam.r-ipm5af.r-1hycxz.r-136ojw6+div.css-1dbjc4n {
+    display: none;
+}
