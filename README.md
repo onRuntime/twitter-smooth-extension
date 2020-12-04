@@ -22,7 +22,7 @@ Twitter smooth extension is an extension which aims to change the theme of the [
 
 ## Usage
 
-[Demo video](https://youtu.be/)
+[Demo video](https://youtu.be/O_ctLrdO45I)
 
 ## Support
 
