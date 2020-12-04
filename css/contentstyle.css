@@ -23,6 +23,7 @@ body, .r-1qd0xha {
 /* shadow on message wrapper */
 
 .r-xnswec {
+    -webkit-box-shadow: rgba(136, 153, 166, 0.05) 0px 0px 15px, rgba(136, 153, 166, 0.05) 0px 0px 3px 1px;
     box-shadow: rgba(136, 153, 166, 0.05) 0px 0px 15px, rgba(136, 153, 166, 0.05) 0px 0px 3px 1px;
 }
 
@@ -59,10 +60,13 @@ header[role="banner"] .css-1dbjc4n.r-aqfbo4.r-1pi2tsx.r-1xcajam.r-ipm5af .css-90
 
 header[role="banner"] nav[role="navigation"] {
     -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
 }
 
 header .css-1dbjc4n.r-1habvwh {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -91,6 +95,8 @@ header[role="banner"] .css-901oao.css-bfa6kz.r-b88u0q.r-ad9z0x.r-bcqeeo.r-qvutc0
 /* header > navbar account name & username */
 
 header[role="banner"] div[role="button"] {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -107,13 +113,15 @@ header[role="banner"] div[role="button"] .css-1dbjc4n.r-obd0qt.r-16y2uox {
 /* main selector */
 
 main[role="main"] {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
 }
 
 /* main > primary column */
 
 main[role="main"] div[data-testid="primaryColumn"] {
-    padding-top: 45px;
+    padding-top: 20px;
 }
 
 /* main > primary column > page title ex: "Home", "Notifications" */
@@ -131,6 +139,7 @@ main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1p0dtai.r-1mlw
 main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-atwnbb {
     margin: 5px 0 25px;
     border-radius: 40px !important;
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .02);
     box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .02);
 }
 
@@ -166,6 +175,7 @@ main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1jgb5lz.r-1ye8
 
 main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-1jgb5lz.r-1ye8kvj.r-13qz1uu .r-rs99b7 {
     border-width: 0 !important;
+    -webkit-box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, .02);
     box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, .02);
 }
 
