@@ -124,6 +124,12 @@ main[role="main"] div[data-testid="primaryColumn"] {
     padding-top: 20px;
 }
 
+/* main > primary column > bar separator between each elements */
+
+main[role="main"] div[data-testid="primaryColumn"] .r-1or9b2r {
+    height: 0;
+}
+
 /* main > primary column > page title ex: "Home", "Notifications" */
 
 main[role="main"] div[data-testid="primaryColumn"] .css-1dbjc4n.r-aqfbo4.r-rull8r.r-qklmqi.r-gtdqiz.r-ipm5af.r-1g40b8q {
